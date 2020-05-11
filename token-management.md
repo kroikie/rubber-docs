@@ -1,3 +1,4 @@
+{% extends "_internal/templates/concept.html" %}
 {% block title %}Managing {{messaging}} tokens{% endblock title %}
 
 {{firebase_messaging}} uses tokens to target messages. When a client
